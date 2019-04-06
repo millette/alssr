@@ -3,7 +3,5 @@
 git clone https://github.com/millette/alssr.git
 cd alssr
 npm install
-node d.js
+node cli.js http://example.com/
 ```
-
-Comparez le output avec la source: <https://millette.github.io/kyucan/>
