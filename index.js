@@ -13,7 +13,8 @@ module.exports = async () => {
   let cnt
   try {
     const page = await browser.newPage()
-    const a = await page.goto(u)
+    const a = await page.goto(u, { waitUntil: 'networkidle0' })
+    if (!a) throw new Error("What's going on?")
     if (!a.ok()) throw new Error(`Status code: ${a.status()}`)
     cnt = await page.content()
   } finally {
