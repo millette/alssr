@@ -1,14 +1,17 @@
 {
   "name": "alssr",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "bin": "cli.js",
   "license": "AGPL-3.0",
+  "author": {
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "http://robin.millette.info"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
   "dependencies": {
     "puppeteer": "^1.14.0"
   }
