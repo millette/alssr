@@ -10,7 +10,7 @@
     "url": "http://robin.millette.info"
   },
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 10.16.0"
   },
   "dependencies": {
     "puppeteer": "^1.18.1"
